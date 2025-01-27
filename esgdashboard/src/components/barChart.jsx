@@ -12,7 +12,6 @@ export default function ESGBarChart() {
         {year: '2023', MWh: 50000},
         {year: '2024', MWh: 55000},
     ];
-
     return (
         <div style={{ width: '100%', height: '100%', maxWidth: '700px', margin: '0 auto' }}>
 
