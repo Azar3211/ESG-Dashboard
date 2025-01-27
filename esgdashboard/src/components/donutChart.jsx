@@ -13,11 +13,10 @@ export default function ESGPieChart() {
                 data: [
                     { label: 'Enviromental', value: 40 , color:'#779150' }, 
                     { label: 'Social', value: 30, color: '#5F99BF'}, 
-                    { label: 'Governance', value: 30, color: '#D6D055' }
+                    { label: 'Governance', value: 30, color: '#D6D055' } 
                 ]
                 
             }
-
         ]}
         width={400}
         height={200}
