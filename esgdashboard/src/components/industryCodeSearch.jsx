@@ -35,7 +35,7 @@ const IndustryCodeSearch = () => {
   return (
     <div
       style={{
-        // maxWidth: "700px", // Adjusts to a manageable size
+        maxWidth: "700px", // Restrict maximum width
         width: "100%", // Responsive width for smaller screens
         margin: "20px auto", // Center horizontally
         padding: "16px",
@@ -67,7 +67,7 @@ const IndustryCodeSearch = () => {
         style={{
             height: '100%',
           maxHeight: "40vh", // Restrict height of the list
-          width: "550px", // Responsive width
+          width: "25vw", // Responsive width
 
           overflowY: "auto", // Enable vertical scrolling
         }}
