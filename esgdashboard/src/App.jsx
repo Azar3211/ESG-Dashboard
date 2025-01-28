@@ -18,8 +18,8 @@ function App() {
       <div className='dashboard'> 
         <div className='container'>
         <div className='line-chart-box'> 
-        <h3 class="box-title">Energy Consumption (kWh)</h3>
-        <div class="chart-content">
+        <h3 className="box-title">Energy Consumption (kWh)</h3>
+        <div className="chart-content">
 
         <ESGLineChart /> 
 
@@ -27,37 +27,37 @@ function App() {
         </div>
 
         <div className='bar-box'>
-        <h3 class="box-title">Renewable Energy Usage (MWh)</h3>
-        <div class="chart-content">
+        <h3 className="box-title">Renewable Energy Usage (MWh)</h3>
+        <div className="chart-content">
         <ESGBarChart /> 
         </div>
         </div>
         <div className='pie-charts'>
-        <h3 class="box-title">ESG Metrics Distribution</h3>
-        <div class="chart-content">
+        <h3 className="box-title">ESG Metrics Distribution</h3>
+        <div clclassNameass="chart-content">
         <ESGPieChart />
         </div>
         </div>
 
 
         <div className='searh-box'>    
-          <h3 class="box-title">ESG Industry Codes</h3>
-          <div class="content">
+          <h3 className="box-title">ESG Industry Codes</h3>
+          <div className="content">
             <IndustryCodeSearch />
 
           </div>
         </div>
 
         <div className='box-report'>
-          <h3 class="box-title">ESG Report</h3>
-          <div class="content">
+          <h3 className="box-title">ESG Report</h3>
+          <div className="content">
 
         <ReportingComp />
           </div>
         </div>
         <div className='box-chat'>
-          <h3 class="box-title">Ai Chat</h3>
-          <div class="content">
+          <h3 className="box-title">AI Chat</h3>
+          <div className="content">
 
         <ChatComponent />
           </div>
