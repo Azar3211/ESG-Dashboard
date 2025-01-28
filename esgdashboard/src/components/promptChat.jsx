@@ -7,7 +7,7 @@ const ChatComponent = () => {
   // Preloaded prompts
     const prompts = [
         "How can I improve my ESG score?",
-        "Best ways to reduce carbon footprint?",
+        "Best ways to reduce carbon footprint as an Agricultural business?",
         "Recommendations for sustainable investing?",
     ];
 
@@ -26,7 +26,7 @@ const ChatComponent = () => {
     return (
         <div
         style={{
-            maxWidth: "650px", // Limit width on large screens
+            maxWidth: "100%", // Limit width on large screens
             width: "100%", // Full width for smaller screens
             height: "80vh", // Use 80% of the viewport height
             // maxHeight: "750px", // Cap the height for larger screens
