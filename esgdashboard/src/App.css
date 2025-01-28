@@ -49,7 +49,7 @@ body {
 }
 
 .searh-box {
-  background: #77B5D9;
+  background: #8ac9ee;
   grid-column: 2 / 3; /* Middle column */
   grid-row: 1 / 5; /* Spans three rows (more space) */
   display: flex;
@@ -67,7 +67,7 @@ body {
 }
 
 .box-chat {
-  background: #77B5D9;
+  background: #8ac9ee;
   grid-column: 3 / 4; /* Last column */
   grid-row: 1 / 7; /* Spans all rows */
   display: flex;
