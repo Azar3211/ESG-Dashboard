@@ -10,6 +10,12 @@ const ChatComponent = () => {
         "Best ways to reduce carbon footprint as an Agricultural business?",
         "Recommendations for sustainable investing?",
     ];
+    //create fake responses
+    const responses = [
+        "You can improve your ESG score by investing in renewable energy sources.",
+        "As an Agricultural business, you can reduce your carbon footprint by using sustainable farming practices.",
+        "For sustainable investing, consider ESG funds or companies with strong ESG ratings.",
+    ];
 
   // Send a message (manual input)
     const sendMessage = () => {
