@@ -7,13 +7,13 @@ const data = [
     { id: 2, metric: 'Water Usage', value: '5000 gallons' },
     { id: 3, metric: 'Carbon Emissions', value: '1000 tons' },
     //add some social metrics
-    { id: 8, metric: 'Employee Satisfaction', value: '90%' },
-    { id: 9, metric: 'Diversity Ratio', value: '40%' },
-    { id: 10, metric: 'Community Engagement', value: '30%' },
+    { id: 4, metric: 'Employee Satisfaction', value: '90%' },
+    { id: 5, metric: 'Diversity Ratio', value: '40%' },
+    { id: 6, metric: 'Community Engagement', value: '30%' },
     //add some governance metrics
-    { id: 11, metric: 'Board Diversity', value: '50%' },
-    { id: 12, metric: 'Executive Compensation', value: '$500,000' },
-    { id: 13, metric: 'Shareholder Engagement', value: '70%' },
+    { id: 7, metric: 'Board Diversity', value: '50%' },
+    { id: 8, metric: 'Executive Compensation', value: '$500,000' },
+    { id: 9, metric: 'Shareholder Engagement', value: '70%' },
 ];
 
 const headers = [
