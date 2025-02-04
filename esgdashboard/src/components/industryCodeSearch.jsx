@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { TextField, List, ListItem, ListItemText } from "@mui/material";
-
+import { useNavigate } from "react-router-dom";
 const IndustryCodeSearch = () => {
+  const navigate = useNavigate();
   // Sample industry codes (replace with your actual data)
   const industryCodes = [
     { code: "A123", name: "Agriculture" },
@@ -30,6 +31,10 @@ const IndustryCodeSearch = () => {
         item.name.toLowerCase().includes(query) // Match by name
     );
     setFilteredCodes(filtered);
+  };
+
+  const selectedIndustryCode = (item) => {
+    navigate(`/industry/${item.code}`, { state: { name: item.name } });
   };
 
   return (
@@ -65,7 +70,7 @@ const IndustryCodeSearch = () => {
       {/* Results List */}
       <div
         style={{
-            height: '100%',
+          height: "100%",
           maxHeight: "40vh", // Restrict height of the list
           width: "25vw", // Responsive width
 
@@ -77,6 +82,7 @@ const IndustryCodeSearch = () => {
             filteredCodes.map((item) => (
               <ListItem
                 key={item.code}
+                button onClick={() => selectedIndustryCode(item)}
                 style={{
                   backgroundColor: "#FFFFFF",
                   marginBottom: "8px",
